@@ -3,4 +3,4 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'This is a test from Kubernetes CI/CD Pipeline !!!!'
+    return 'Hello Docker !!!!'
