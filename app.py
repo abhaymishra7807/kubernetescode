@@ -3,4 +3,4 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello From Kubernetes CI/CD !!!!'
+    return 'Hello Kubernetes !!!!'
